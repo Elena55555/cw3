@@ -31,12 +31,35 @@ public class Main {
         }
 
 
-        for (Transport transport : transports) {
-            transport.checkTrailer();
-            transport.checkEngine();
-            transport.updateTyre();
+       for (Car car : cars) {
+            car.updateTyre();
+            car.checkEngine();
+         }
 
+        for (Bicycle bicycle : bicycles) {
+             bicycle.updateTyre();
+          }
+
+
+        for (Truck truck : trucks) {
+            truck.updateTyre();
+            truck.checkEngine();
+            truck.checkTrailer();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
