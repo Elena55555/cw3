@@ -31,14 +31,20 @@ public class Main {
         }
 
 
+
+
+
        for (Car car : cars) {
             car.updateTyre();
             car.checkEngine();
          }
 
+
+
         for (Bicycle bicycle : bicycles) {
              bicycle.updateTyre();
           }
+
 
 
         for (Truck truck : trucks) {
@@ -46,6 +52,8 @@ public class Main {
             truck.checkEngine();
             truck.checkTrailer();
         }
+
+
 
 
 
