@@ -31,9 +31,6 @@ public class Main {
         }
 
 
-
-
-
         for (Car car : cars) {
             car.updateTyre();
             car.checkEngine();
@@ -52,6 +49,9 @@ public class Main {
             truck.checkEngine();
             truck.checkTrailer();
         }
+
+
+
 
 
 
